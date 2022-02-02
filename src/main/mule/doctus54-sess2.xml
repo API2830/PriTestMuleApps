@@ -11,7 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="fa88c512-91f1-417b-a580-def41411f0a6" path="/demo" config-ref="HTTP_Listener_config"/>
 		<logger level="INFO" doc:name="Logger" doc:id="0917e03d-39d7-4386-82ec-7cc7d3eb06fb" message="in logger"/>
 		<set-payload value="success" doc:name="Set Payload" doc:id="d47d2b23-df85-4982-b161-660ea5acd4a8" />
-		<logger level="INFO" doc:name="Logger" doc:id="2ecda15f-2ec4-402f-9c1a-ee21f4d8e2e2" message="this is new logger"/>
-		<set-payload value="my payload final" doc:name="Set Payload" doc:id="0547ea5a-7c90-4c8c-932f-4fae06a9bee7" />
+		<logger level="INFO" doc:name="Loggername" doc:id="a2ed1925-af43-414a-b4ec-6b5730d91aa4" message="this is logger"/>
 	</flow>
 </mule>
